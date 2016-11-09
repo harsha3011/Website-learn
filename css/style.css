@@ -1,0 +1,34 @@
+.container_12{
+ background: grey;
+}
+nav li{
+	display: inline;
+	margin-left: 30px;
+	margin-right: 0px;
+}
+ul a{
+	text-decoration: none;
+	color: black;
+}
+ul a:hover{
+	color: red;
+}
+header h3{float: right;color: black;}
+header{
+	background: lightgrey;
+	position: fixed;
+}
+.main{
+	overflow: hidden;
+	position: absolute;
+	top: 60px;
+}
+.hero-unit{
+	width: 100%;
+	height: auto;
+	text-align: center;	
+}
+.exp{
+	position: absolute;
+	top: 60px;
+}

@@ -1,0 +1,205 @@
+body{
+	background: url(../img/backgrnd.jpg);
+	background-repeat: no-repeat;
+	background-size: 3500px 3000px;
+}/*Adding properties to entire body*/
+.clearfix{
+position: fixed;
+top: 0px;
+background: url(../img/head.jpg);
+background-repeat: no-repeat;
+background-size: 960px;
+height: 60px;
+border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+}/*Adding properties to the header section*/
+header h3{
+	color: white;
+	font-family: 'Courgette',cursive;
+	font-size: 30px;
+}/*Adding properties to the  heading in the header section*/
+header nav{
+	margin-top: 40px;
+}
+nav li{
+	display: inline;
+}/*Adding properties to the navigation elements*/
+ul a{
+	text-decoration: none;
+	color: white;
+	font-family: 'EB+Garamond',serif;
+	font-size: 15px;
+}/*Adding properties to anchor elements in the heading section*/
+ul a:hover{
+	color: red;
+}/*Adding properties to anchor elements in the heading section*/
+.about{
+	background: #F0F0F0;
+	margin-top: 65px;
+	margin-bottom: 5px;
+	height: 120px;
+	border-radius: 20px;
+}
+.about h2{
+	font-family: 'Kaushan Script',cursive;
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+.about p{
+	font-family: 'Itim',cursive;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.main{
+	border-radius: 25px;
+	background: #F0F0F0;
+	height:430px;
+	margin-bottom: 5px;
+}/*Adding properties to the the whole portion of the 3 column section*/
+.main a{
+	margin-left: 20px;
+}
+.main h2{
+	text-align: center;
+	padding-top: 5px;
+	font-family: 'Kaushan Script',cursive;
+}/*Adding properties to the header of 3 column section*/
+.main h4{
+	font-family: 'Abril Fatface',cursive;
+	text-align: center;
+}/*Adding properties to the elements in 3 column section*/
+.main h3,.main p{
+	font-family: 'Itim',cursive;
+	margin-left: 10px;
+}/*Adding properties to the elements in 3 column section*/
+.main .grid_4{
+	border: 1px solid grey;
+	margin-left: 8px;
+	border-radius: 15px;
+}/*Adding properties to the each individual grids in 3 column section*/
+.hero-unit{
+	width: 100%;
+	text-align: center;
+	height: 700px;
+	background: #F0F0F0;
+	margin-bottom: 5px;
+}/*Adding properties to the entire hero-unit*/
+.hero-unit h5{
+	padding-top: 5px;
+	font-family: 'Kaushan Script',cursive;
+	font-size: 25px;
+}/*Adding properties to the header portion of the hero-unit*/
+.hero-unit p{
+	padding-top: 20px;
+	font-family: 'Courgette',cursive;
+	font-size: 20px;
+}/*Adding properties to the paragraph portion of the hero-unit*/
+.sect{
+	border-radius: 25px;
+	width: 960px;
+	height: 220px;
+	padding-top: 20px;
+	background: #F0F0F0;
+	margin-bottom: 5px;
+}/*Adding properties to the 2 column section*/
+.sect h4{
+	font-family: 'Kaushan Script',cursive;
+	font-size: 20px;
+}/*Adding properties to the elements in 2nd column of 2 column section*/
+.sect h6,.sect p{
+	font-family: 'Itim',cursive;
+}/*Adding properties to the elements in 2nd column of 2 column section*/
+.hero-unit a,.sect a{
+	text-decoration: none;
+}
+.heading{
+	height: 40px;
+	font-size: 20px;
+	margin-top: 65px;
+	background: #F0F0F0;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	font-family: 'Abril Fatface',cursive;
+}
+.heading a{
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	padding-right: 20px;
+}
+.heading p{
+	padding-top: 5px;
+}
+.heading a:hover{
+	color: blue;
+}
+.exp{
+	width: 960px;
+	height: 1420px;
+}/*Adding properties to the elements in explore page*/
+.exp a{
+	font-size: 100px;
+}/*Adding properties to the elements in explore page*/
+.vid_class,.vid_prg,.pd_prg,.pd_class{
+	width: 960px;
+	background: #F0F0F0;
+	margin-top: 5px;
+	height: 350px;
+	border-radius: 25px;
+}/*Adding properties to the elements in explore page*/
+.exp h3{
+	text-align: center;
+	font-family: 'Courgette',cursive;
+	font-size: 20px;
+}/*Adding properties to the elements in explore page*/
+.exp p{
+	font-family: 'Itim',cursive;
+	font-size: 15px;
+}/*Adding properties to the elements in explore page*/
+.exp img{
+	margin-left: 20px;
+}/*Adding properties to the elements in explore page*/
+.exp i{
+	margin-left: 100px;
+}/*Adding properties to the elements in explore page*/
+.exp h4{
+	font-family: 'Kaushan Script',cursive;
+}/*Adding properties to the elements in explore page*/
+.exp h4,.exp p{
+	margin-left: 20px;
+}/*Adding properties to the elements in explore page*/
+.exp h6{
+	margin-right: 20px;
+	float: right;
+	font-family: 'Courgette',cursive;
+	font-size: 20px;
+}/*Adding properties to the elements in explore page*/
+.one,.two{
+	border-right: 1px solid black;
+}/*Adding properties to the elements in explore page*/
+footer{
+		background: grey;
+		width: 960px;
+		height: 200px;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+}/*Adding properties to the footer*/
+footer h4{
+	font-family: 'Itim',cursive;
+	padding-top: 20px;
+	}/*Adding properties to the elements in footer*/
+footer h6{
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 40px;
+}/*Adding properties to the elements in footer*/
+footer h5{
+	font-family: 'Abril Fatface',cursive;
+	text-align: center;
+	padding-right: 40px;
+	padding-top: 20px;
+}/*Adding properties to the elements in footer*/
+
